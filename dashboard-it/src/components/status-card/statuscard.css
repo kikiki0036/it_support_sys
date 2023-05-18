@@ -1,0 +1,154 @@
+.status-card {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.5s ease 0s;
+    cursor: pointer;
+    /* margin-bottom: 3px; */
+}
+
+.status-card__icon {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    /* flex-direction: column;  */
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    
+}
+
+.title-card{
+    font-size:10px;
+    margin-top: 5px;
+    font-weight: 500;
+    /* margin-top: 3px; */
+}
+
+.status-card__icon > i {
+    font-size: 2rem;
+    /* color: rgb(127, 136, 255); */
+}
+
+.status-card__info {
+    flex-grow: 1;
+    text-align: center;
+    z-index: 1;
+    text-transform: capitalize;
+}
+
+.status-card__info > h4 {
+    font-size: 1.5rem;
+    /* margin-bottom: 10px; */
+}
+
+.status-card::before {
+    content: "";
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    opacity: 0.1;
+    background-image: linear-gradient(
+        to top right,
+        #f6f7f8,
+        #ffffff
+    );
+    position: absolute;
+    left: -50%;
+    top: 0;
+    transform: scale(0);
+    transition: transform 0.8s ease 0s;
+}
+
+.status-card:hover::before {
+    transform: scale(3);
+}
+
+.status-card:hover {
+    /* color: var(--txt-white); */
+}
+
+/* .status_icon{
+    fill:#575968;  
+} */
+
+/* colors: [ '#ff9900', '#4e67f5', '#fd2d42', '#00e253'],
+gradientToColors: ["#ffdc18", "#00d2ff", "#FD2DA2" , '#50ffa5'], */
+
+
+/* .status_active-icon-pending {
+    fill:#ff9900;  
+    box-shadow:-1px -1px 1px 1px #ffdc18,1px 1px 3px 0.5px #f2f1f1;
+}
+
+.status_active-icon-open {
+    fill:#4e67f5;  
+    box-shadow:-1px -1px 1px 1px #00d2ff,1px 1px 3px 0.5px #f2f1f1;
+}
+
+.status_active-icon-delay {
+    fill:#fd2d42;  
+    box-shadow:-1px -1px 1px 1px #FD2DA2,1px 1px 3px 0.5px #f2f1f1;
+}
+
+.status_active-icon-finish {
+    fill:#00e253;  
+    box-shadow:-1px -1px 1px 1px #50ffa5,1px 1px 3px 0.5px #f2f1f1;
+} */
+
+
+.status-card__icon .box-icon.active-icon-pending {
+    fill:#ffc435;  
+    /* box-shadow:-1px -1px 1px 1px#ffb24d,1px 1px 3px 0.5px #ffdc18; */
+}
+
+.status-card__icon .box-icon.active-icon-inprogress {
+    fill:#4e67f5;  
+    /* box-shadow:-1px -1px 1px 1px #007bff,1px 1px 3px 0.5px #88e8fd; */
+}
+
+.status-card__icon .box-icon.active-icon-delay {
+    fill:#fd2d42;  
+    /* box-shadow:-1px -1px 1px 1px #FD2DA2,1px 1px 3px 0.5px #ff55b6; */
+}
+
+.status-card__icon .box-icon.active-icon-finish {
+    fill:#00e253;  
+    /* box-shadow:-1px -1px 1px 1px #24fd8d,1px 1px 3px 0.5px #a5ffd0; */
+}
+
+.status-card__icon .path {
+    /* fill: none; */
+    /* stroke: rgb(236, 239, 245); */
+    stroke-width: 1;
+}
+  
+.status-card__icon .blur {
+    filter: url('#dropshadow');
+    opacity: 0.6;
+}
+
+.status-card__icon .box-icon {
+    fill:#575968;  
+    width: fit-content;
+    height: fit-content;
+    padding: 4.5px;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: inset 0px 0px 2px #e6e5e5;
+    box-shadow: 0px 0px 10px 0px #e9e9eb82,  0 0 0 1px #e9e9eb82;
+
+}
+

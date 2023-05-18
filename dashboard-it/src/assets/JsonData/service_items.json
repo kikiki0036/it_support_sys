@@ -1,0 +1,305 @@
+{
+    "item" : [
+        {
+            "id" : 1,
+            "name" : "โปรแกรม / program",
+            "description" : "เลือกโปรแกรมที่ต้องการใช้ สามารถเลือกได้มากกว่า 1 รายการ และหากนอกเหนือจากรายการที่มีอยู่ให้กรอกข้อมูลลงไปที่ช่อง",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 2,
+            "name" : "ชื่อเครื่องคอมพิวเตอร์ / computer name",
+            "description" : "กรณีที่เป็น computer เครื่องใหม่ให้ระบุเป็น ITU9999 กรณีเป็น Notebook เครื่องใหม่ให้ระบุเป็น ITN",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 3,
+            "name" : "รายละเอียด / detaill",
+            "description" : "อธิบายรายละเอียดความต้องการของผู้ร้องขอ",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 4,
+            "name" : "ไฟล์แนบ / attach file",
+            "description" : "ขนาดของไฟล์ห้ามเกิน 5MB และสามารถเพิ่มได้มากกว่า 1 ไฟล์",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 5,
+            "name" : "ชื่อผู้ใช้งาน(ผู้ติดต่อ) / visitor name",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 6,
+            "name" : "วันที่ต้องการ / Require date",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 7,
+            "name" : "โปแกรมภายใน / Internal develop ",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 8,
+            "name" : "Module / manu",
+            "description" : "ระบุตามการเข้าในส่วนของโปรแกรม",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 9,
+            "name" : "วัตถุประสงค์ / objective",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 10,
+            "name" : "รหัสพนักงาน / emp id",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 11,
+            "name" : "ไฟล์แนบพื้นที่ตอดตั้ง / layout file",
+            "description" : "แนบเอกสาร layout ในการระบุตำแหน่งพื้นที่ติดตั้ง",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 12,
+            "name" : "ชื่อ CCTV / CCTV name",
+            "description" : "กรณีขอติดตั้งใหม่ไม่ต้องระบุชื่อ",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 13,
+            "name" : "ประเภภทการร้องขอ / Job item hardware",
+            "description" : "1.ติดตั้งใหม่/New 2.โยกย้าย/Move",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 14,
+            "name" : "ไฟล์แนบสิทธิ์ / attached file permission",
+            "description" : "แนแบบฟอร์มขอใช้งาน User  Program และ แนบรูปภาพเมนูที่ต้องการเข้าใช้งานให้ชัดเจน",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 15,
+            "name" : "ประเภทอีเมลล์ / usage type",
+            "description" : "1.ภายใน/Internal 2.ภายนอก/Exteral",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 16,
+            "name" : "ข้อใช้บนมือถือ usage on mobile",
+            "description" : "1.ใช้/Yes 2.ไม่ใช้/No",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 17,
+            "name" : "ขนาด mail box / mail box size",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 18,
+            "name" : "ขนาดการ รับ-ส่ง E-mail / Incomming & Outgoing Size E-mail",
+            "description" : "ระบุขนาดในการรับส่งข้อมูล ...MB",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 19,
+            "name" : "ประเภทการร้องขอ / Job item seculity",
+            "description" : "1.สร้างใหม่/New 2.เปลี่ยน/Change (มี User อยู่แล้วขอเปลี่ยนแปลงสิทธิ์)",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 20,
+            "name" : "อีเมล์ /E-mail address",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 21,
+            "name" : "ชื่อผู้ใช้งาน (AD) / user name (AD)",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 23,
+            "name" : "แผนกเจ้าของร้องขอ / data of section",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 24,
+            "name" : "ชื่อปริ้นเตอร์ /printer name",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 25,
+            "name" : "ประเภทการปริ้น / color type",
+            "description" : "1.Black 2.Color",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 26,
+            "name" : "แผนกเจ้าของ CCTV / section owner",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 27,
+            "name" : "จำนวนผู้ใช้งาน / person",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 28,
+            "name" : "สถานที่ใช้งาน / location name",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 29,
+            "name" : "ระบบที่ต้องการยกเลิก",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 30,
+            "name" : "วันที่ต้องการ(เริ่มต้น) / start date",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 31,
+            "name" : "วันที่ต้องดาร(สิ้นสุด) / finish date",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 32,
+            "name" : "ประเภทการร้องขอ / job type",
+            "description" : "1.สำรองข้อมูล 2.ขอข้อมูลที่สำรอง 3.เพิ่มพื้นที่โฟลเดอร์ 4.ขอย้ายโฟลเดอร์",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 33,
+            "name" : "ระบุชื่อ folder ที่ต้องการ / folder name",
+            "description" : "กรณีสร้าง Folder ใหม่ให้ระบุชื่อ",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 34,
+            "name" : "รายละเอียดคอมพิวเตอร์และอุปกรณ์ / detail computer and device",
+            "description" : "กรณีที่ไม่ใช่คอมพิวเตอร์ให้ระบุ ITU9999",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 35,
+            "name" : "โปรแกรมลิขสิทธิ์ / License Program",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 36,
+            "name" : "ประเภทอุปกรณ์ / Device Type",
+            "description" : "ประเภทอุปกรณ์ในประวัติโปรแกรม MISM ( Com / Printer / CCTV / Monitor / UPS )",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 37,
+            "name" : "ชื่ออุปกรณ์ / Device Name",
+            "description" : "ระบุชื่ออุปกรณ์/หมายเลข 1.ITU... 2.CCTV... 3.ITP... 4.ITN... ",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 38,
+            "name" : "เมนู/Menu",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 39,
+            "name" : "ผู้อนุมัติ (เจ้าของข้อมูล) / Owner Approve",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 40,
+            "name" : "Factory",
+            "description" : "ระบุสาขา/โรง",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 41,
+            "name" : "สถานที่ใช้งาน / Location Name",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 42,
+            "name" : "Password",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 43,
+            "name" : "User Type",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        },
+        {
+            "id" : 44,
+            "name" : "เบอร์ติดต่อ / Tel",
+            "description" : "",
+            "type" : "",
+            "creator" : "640001"
+        }
+    ]
+}

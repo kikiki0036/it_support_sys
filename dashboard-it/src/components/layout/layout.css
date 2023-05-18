@@ -1,0 +1,35 @@
+.layout {
+    color: var(--txt-color);
+}
+
+.layout__content {
+    padding-left: var(--sidebar-width);
+    background-color: var(--second-bg);
+    min-height: 100vh;
+}
+
+.layout-component{
+    /* width: 78.59%; */
+    width:100%;
+    overflow-y: overlay;
+    /* overflow-y: auto; */
+    /* overflow-x: visible; */
+    /* height: 100%; */
+}
+
+.layout__content-main {
+    padding: 0 15px 0 0px;
+    display: flex;
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+} 
+
+.layout-component-option{
+    width: 50vh;
+    /* z-index: 100px; */
+
+    /* margin-top: 10px; */
+    /* width: 35%; */
+    /* background-color: blueviolet; */
+}

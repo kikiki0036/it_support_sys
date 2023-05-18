@@ -1,0 +1,71 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsIm5hbWUiOiJBcnQgbiIsImVtYWlsIjoiYXJ0QGdtYWlsLmNvbSIsImlhdCI6MTYzOTc5MjQ5MiwiZXhwIjoxNjM5NzkyNTA3fQ.LGbLyQPLjGQ0RNG7u_YM8bC7vOert7xh0MVaLhGNXRc
+
+###
+POST http://localhost:5000/users 
+content-type: application/json
+
+{
+    "name": "goten n",
+    "email": "goten@gmail.com",
+    "password": "123",
+    "confPassword": "123"
+}
+
+###
+POST http://localhost:5000/getDataDeviceCut 
+content-Type: application/json
+
+{
+    "id_profile": "PF6400009-01"
+}
+
+###
+POST http://localhost:5000/getProfileIDCut
+content-Type: application/json
+
+{
+    "id_profile": "PF6400009-01",
+    "status_pf": "pf_on"
+}
+
+###
+GET http://localhost:5000/getDeviceDetail
+
+###
+POST  http://localhost:5000/getDataTikket
+content-Type: application/json
+
+{
+    "status": ["approve"],
+    "createJob_by": null
+}
+
+###
+POST http://localhost:5000/getDataTikketCut 
+content-Type: application/json
+
+{
+    "tikket_no": "tk220607-000024",
+    "status": ["approve","waite","reject"]
+}
+
+
+###
+POST http://localhost:5000/getDataJobCut 
+content-Type: application/json
+
+{
+    "tikket_no": "tk220607-000024"
+}
+
+
+###
+POST http://localhost:5000/Job_OpenJOB 
+content-Type: application/json
+
+{
+    "job_no": "RQ220608000003",
+    "status": "inprogress",
+    "open_date": "2022-06-08 17:21:49"
+}

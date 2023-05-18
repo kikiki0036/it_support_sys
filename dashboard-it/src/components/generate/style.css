@@ -1,0 +1,168 @@
+.service-select {
+    /* height: 23rem; */
+}
+
+.service-select .header{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 10px 0;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.service-select .col-12.field-select {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.service-select .col-12.field-select .MuiAutocomplete-root {
+    padding: 15px;
+}
+
+.typewrite-h {
+    margin: auto ;
+    margin-top:150px;
+    color: #969494;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* -----------------------------step 2-----------------------------------*/
+.display-none {
+    display: none;
+}
+
+.dialog-title-content {
+    padding: 10.88px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-req-step-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-fields-input-55 {
+    width: 55%;
+    padding: 10px;
+    height: 23rem;
+    overflow-y: overlay;
+}
+
+.box-fields-input-50 {
+    width: 50%;
+    padding: 10px;
+    height: 23rem;
+    overflow: auto;
+}
+
+.box-fields {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px 10px; 
+}
+
+.input-req {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box-fields-input-55 .field-req,
+.box-fields-input-50 .field-req  {
+    width: 100%;
+}
+
+.box-des-content {
+    width: 45%;
+    padding: 10px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box-des-content p{
+    font-size: 0.7rem;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+    font-family: 'Kanit', sans-serif;
+
+    /* font-family: "Kanit"; */
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.btn-add-field {
+    background-color: rgba(220, 243, 255, 0.234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 5px 0;
+    border: 1px dashed rgb(69, 91, 254) ;
+}
+
+.MuiAutocomplete-listbox.css-b7k0tb-MuiAutocomplete-listbox {
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+    max-height: 16em;
+
+}
+
+.MuiAutocomplete-listbox.css-b7k0tb-MuiAutocomplete-listbox li{
+
+}
+
+.box-flex {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.in-box {
+    width: 50%;
+}
+
+.box-input-pad p{
+    font-size: 10px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.in-box-input-pad {
+    padding: 0 10px;
+}
+
+
+.box-fields-input-req {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.dis-row {
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dis-row-end {
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dis-row .fieldn{
+    /* display: flex; */
+    padding: 15px;
+    /* margin-bottom: 15px; */
+    /* justify-content: space-evenly; */
+}

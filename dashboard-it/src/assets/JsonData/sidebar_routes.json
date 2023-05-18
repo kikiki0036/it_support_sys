@@ -1,0 +1,42 @@
+[
+    {
+        "display_name": "Manage Job",
+        "route": "/it-service/dashboard",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Data",
+        "route": "/it-service/dashboard/customers",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Request",
+        "route": "/it-service/dashboard/request",
+        "icon": "bx bx-task"
+    },
+    {
+        "display_name": "Generate",
+        "route": "/it-service/dashboard/generate",
+        "icon": "bx bx-wrench"
+    },
+    {
+        "display_name": "Notebook Center",
+        "route": "/it-service/dashboard/notebook_center",
+        "icon": "bx bx-desktop"
+    },
+    {
+        "display_name": "Assign tasks",
+        "route": "/it-service/dashboard/team-manage",
+        "icon": "bx bxl-microsoft-teams"
+    },
+    {
+        "display_name": "Service/Config",
+        "route": "/it-service/dashboard/config",
+        "icon": "bx bx-cog"
+    },
+    {
+        "display_name": "History",
+        "route": "/it-service/dashboard/history",
+        "icon": "bx bx-book-alt"
+    }
+]

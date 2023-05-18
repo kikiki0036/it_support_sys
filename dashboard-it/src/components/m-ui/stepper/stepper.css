@@ -1,0 +1,22 @@
+.css-fnssl6-MuiStack-root>:not(style)+:not(style) {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.btn-stepContent {
+    /* position: absolute; */
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-end;
+    /* position: absolute;
+    right: 17em;
+    top: 35em; */
+}
+
+.Containerstepper {
+    /* min-height: 59.5vh; */
+    min-height: 23.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

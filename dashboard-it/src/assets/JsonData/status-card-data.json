@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "icon": "bx bx-receipt",
+        "count": "6",
+        "title": "Pending"
+    },
+    {
+        "id":2,
+        "icon": "bx bx-receipt",
+        "count": "1",
+        "title": "Open"
+    },
+    {
+        "id":3,
+        "icon": "bx bx-receipt",
+        "count": "0",
+        "title": "Delay"
+    },
+    {
+        "id":4,
+        "icon": "bx bx-receipt",
+        "count": "5",
+        "title": "Finish"
+    }
+]
